@@ -1,0 +1,4 @@
+git -v = check git version
+git init = initialize git repo
+git confid --gobal user.name "user.name" = setting user name
+git confid --global user.email "email" = setting user email
