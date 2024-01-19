@@ -1,0 +1,25 @@
+git -v = check git version
+git init = initialize git repo
+git config --gobal user.name "user.name" = setting user name
+git config --global user.email "email" = setting user email
+git add "filename" = adding files to staging area
+git commit -m "commit message" = committing files in the staging area
+git status = checking files in the staging area/checking status of files
+git rm --caced filename =remove file from staging area
+
+
+git log = show commit history
+git log --oneline = show short version of commit history
+
+git branch -a = list all branches
+git branch branchname = create new branch
+git checkout branchname = switch to a branch
+git branch -d branchname = deletes branch
+git merge branchname = mergeers branch into branch we're on
+
+git checkout commitID = checkout/go back to a previous commit
+
+M = modified
+A = Added to staging area
+U = Unattracted/Not in staging area
+no letter = Committed
